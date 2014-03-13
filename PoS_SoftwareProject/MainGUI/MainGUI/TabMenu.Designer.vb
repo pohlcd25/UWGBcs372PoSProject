@@ -26,32 +26,39 @@ Partial Class frmTabMenu
         Me.btnAddSalad = New System.Windows.Forms.Button()
         Me.btnSoup = New System.Windows.Forms.Button()
         Me.grpFood = New System.Windows.Forms.GroupBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
+        Me.cboSoup = New System.Windows.Forms.ComboBox()
+        Me.cboSalad = New System.Windows.Forms.ComboBox()
         Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.Button23 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
         Me.btnOnionRings = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
         Me.btnFries = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.grpDrinks = New System.Windows.Forms.GroupBox()
+        Me.Button35 = New System.Windows.Forms.Button()
         Me.Button28 = New System.Windows.Forms.Button()
+        Me.Button39 = New System.Windows.Forms.Button()
         Me.Button29 = New System.Windows.Forms.Button()
+        Me.Button42 = New System.Windows.Forms.Button()
         Me.Button30 = New System.Windows.Forms.Button()
+        Me.Button46 = New System.Windows.Forms.Button()
+        Me.Button47 = New System.Windows.Forms.Button()
         Me.Button31 = New System.Windows.Forms.Button()
         Me.Button32 = New System.Windows.Forms.Button()
         Me.Button33 = New System.Windows.Forms.Button()
@@ -69,15 +76,8 @@ Partial Class frmTabMenu
         Me.Button51 = New System.Windows.Forms.Button()
         Me.Button52 = New System.Windows.Forms.Button()
         Me.btnFountain = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button39 = New System.Windows.Forms.Button()
-        Me.Button42 = New System.Windows.Forms.Button()
-        Me.Button46 = New System.Windows.Forms.Button()
-        Me.Button47 = New System.Windows.Forms.Button()
         Me.btnCommit = New System.Windows.Forms.Button()
         Me.btnCancelEdit = New System.Windows.Forms.Button()
-        Me.cboSalad = New System.Windows.Forms.ComboBox()
-        Me.cboSoup = New System.Windows.Forms.ComboBox()
         CType(Me.picEstabIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.grpFood.SuspendLayout()
         Me.grpDrinks.SuspendLayout()
@@ -146,140 +146,23 @@ Partial Class frmTabMenu
         Me.grpFood.TabStop = False
         Me.grpFood.Text = "Food"
         '
-        'Button2
+        'cboSoup
         '
-        Me.Button2.Location = New System.Drawing.Point(6, 200)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(85, 56)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "Open Bar Tab"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.cboSoup.FormattingEnabled = True
+        Me.cboSoup.Items.AddRange(New Object() {"Soup of the Day", "French Onion", "Chicken Noodle", "Minestrone"})
+        Me.cboSoup.Location = New System.Drawing.Point(97, 95)
+        Me.cboSoup.Name = "cboSoup"
+        Me.cboSoup.Size = New System.Drawing.Size(121, 21)
+        Me.cboSoup.TabIndex = 22
         '
-        'Button3
+        'cboSalad
         '
-        Me.Button3.Location = New System.Drawing.Point(6, 138)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(85, 56)
-        Me.Button3.TabIndex = 9
-        Me.Button3.Text = "Open Bar Tab"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(6, 324)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(85, 56)
-        Me.Button4.TabIndex = 10
-        Me.Button4.Text = "Open Bar Tab"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(6, 262)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(85, 56)
-        Me.Button5.TabIndex = 9
-        Me.Button5.Text = "Open Bar Tab"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(97, 200)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(85, 56)
-        Me.Button8.TabIndex = 10
-        Me.Button8.Text = "Open Bar Tab"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'Button9
-        '
-        Me.Button9.Location = New System.Drawing.Point(97, 138)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(85, 56)
-        Me.Button9.TabIndex = 9
-        Me.Button9.Text = "Open Bar Tab"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.Location = New System.Drawing.Point(6, 386)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(85, 56)
-        Me.Button10.TabIndex = 11
-        Me.Button10.Text = "Open Bar Tab"
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.Location = New System.Drawing.Point(97, 386)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(85, 56)
-        Me.Button11.TabIndex = 13
-        Me.Button11.Text = "Open Bar Tab"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Location = New System.Drawing.Point(97, 262)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(85, 56)
-        Me.Button12.TabIndex = 12
-        Me.Button12.Text = "Open Bar Tab"
-        Me.Button12.UseVisualStyleBackColor = True
-        '
-        'Button13
-        '
-        Me.Button13.Location = New System.Drawing.Point(97, 324)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(85, 56)
-        Me.Button13.TabIndex = 11
-        Me.Button13.Text = "Open Bar Tab"
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.Location = New System.Drawing.Point(188, 386)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(85, 56)
-        Me.Button14.TabIndex = 20
-        Me.Button14.Text = "Open Bar Tab"
-        Me.Button14.UseVisualStyleBackColor = True
-        '
-        'Button15
-        '
-        Me.Button15.Location = New System.Drawing.Point(188, 262)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(85, 56)
-        Me.Button15.TabIndex = 19
-        Me.Button15.Text = "Open Bar Tab"
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Button16
-        '
-        Me.Button16.Location = New System.Drawing.Point(188, 324)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(85, 56)
-        Me.Button16.TabIndex = 18
-        Me.Button16.Text = "Open Bar Tab"
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Button17
-        '
-        Me.Button17.Location = New System.Drawing.Point(188, 200)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(85, 56)
-        Me.Button17.TabIndex = 16
-        Me.Button17.Text = "Open Bar Tab"
-        Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Button19
-        '
-        Me.Button19.Location = New System.Drawing.Point(188, 138)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(85, 56)
-        Me.Button19.TabIndex = 14
-        Me.Button19.Text = "Open Bar Tab"
-        Me.Button19.UseVisualStyleBackColor = True
+        Me.cboSalad.FormattingEnabled = True
+        Me.cboSalad.Items.AddRange(New Object() {"Plain", "Ceaser", "French", "Italian", "Greek"})
+        Me.cboSalad.Location = New System.Drawing.Point(97, 32)
+        Me.cboSalad.Name = "cboSalad"
+        Me.cboSalad.Size = New System.Drawing.Size(121, 21)
+        Me.cboSalad.TabIndex = 21
         '
         'Button21
         '
@@ -290,6 +173,15 @@ Partial Class frmTabMenu
         Me.Button21.Text = "Open Bar Tab"
         Me.Button21.UseVisualStyleBackColor = True
         '
+        'Button14
+        '
+        Me.Button14.Location = New System.Drawing.Point(188, 386)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(85, 56)
+        Me.Button14.TabIndex = 20
+        Me.Button14.Text = "Open Bar Tab"
+        Me.Button14.UseVisualStyleBackColor = True
+        '
         'Button22
         '
         Me.Button22.Location = New System.Drawing.Point(279, 262)
@@ -299,6 +191,15 @@ Partial Class frmTabMenu
         Me.Button22.Text = "Open Bar Tab"
         Me.Button22.UseVisualStyleBackColor = True
         '
+        'Button11
+        '
+        Me.Button11.Location = New System.Drawing.Point(97, 386)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(85, 56)
+        Me.Button11.TabIndex = 13
+        Me.Button11.Text = "Open Bar Tab"
+        Me.Button11.UseVisualStyleBackColor = True
+        '
         'Button23
         '
         Me.Button23.Location = New System.Drawing.Point(279, 324)
@@ -307,6 +208,15 @@ Partial Class frmTabMenu
         Me.Button23.TabIndex = 18
         Me.Button23.Text = "Open Bar Tab"
         Me.Button23.UseVisualStyleBackColor = True
+        '
+        'Button15
+        '
+        Me.Button15.Location = New System.Drawing.Point(188, 262)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(85, 56)
+        Me.Button15.TabIndex = 19
+        Me.Button15.Text = "Open Bar Tab"
+        Me.Button15.UseVisualStyleBackColor = True
         '
         'Button24
         '
@@ -326,6 +236,15 @@ Partial Class frmTabMenu
         Me.btnOnionRings.Text = "Onion Rings"
         Me.btnOnionRings.UseVisualStyleBackColor = True
         '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(6, 386)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(85, 56)
+        Me.Button10.TabIndex = 11
+        Me.Button10.Text = "Open Bar Tab"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
         'Button26
         '
         Me.Button26.Location = New System.Drawing.Point(279, 138)
@@ -335,6 +254,15 @@ Partial Class frmTabMenu
         Me.Button26.Text = "Open Bar Tab"
         Me.Button26.UseVisualStyleBackColor = True
         '
+        'Button16
+        '
+        Me.Button16.Location = New System.Drawing.Point(188, 324)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(85, 56)
+        Me.Button16.TabIndex = 18
+        Me.Button16.Text = "Open Bar Tab"
+        Me.Button16.UseVisualStyleBackColor = True
+        '
         'btnFries
         '
         Me.btnFries.Location = New System.Drawing.Point(279, 14)
@@ -343,6 +271,96 @@ Partial Class frmTabMenu
         Me.btnFries.TabIndex = 15
         Me.btnFries.Text = "French Fries"
         Me.btnFries.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Location = New System.Drawing.Point(97, 262)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(85, 56)
+        Me.Button12.TabIndex = 12
+        Me.Button12.Text = "Open Bar Tab"
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button17
+        '
+        Me.Button17.Location = New System.Drawing.Point(188, 200)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(85, 56)
+        Me.Button17.TabIndex = 16
+        Me.Button17.Text = "Open Bar Tab"
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Location = New System.Drawing.Point(97, 324)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(85, 56)
+        Me.Button13.TabIndex = 11
+        Me.Button13.Text = "Open Bar Tab"
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'Button19
+        '
+        Me.Button19.Location = New System.Drawing.Point(188, 138)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(85, 56)
+        Me.Button19.TabIndex = 14
+        Me.Button19.Text = "Open Bar Tab"
+        Me.Button19.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Location = New System.Drawing.Point(97, 200)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(85, 56)
+        Me.Button8.TabIndex = 10
+        Me.Button8.Text = "Open Bar Tab"
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(97, 138)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(85, 56)
+        Me.Button9.TabIndex = 9
+        Me.Button9.Text = "Open Bar Tab"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(6, 324)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(85, 56)
+        Me.Button4.TabIndex = 10
+        Me.Button4.Text = "Open Bar Tab"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(6, 200)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(85, 56)
+        Me.Button2.TabIndex = 10
+        Me.Button2.Text = "Open Bar Tab"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(6, 262)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(85, 56)
+        Me.Button5.TabIndex = 9
+        Me.Button5.Text = "Open Bar Tab"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(6, 138)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(85, 56)
+        Me.Button3.TabIndex = 9
+        Me.Button3.Text = "Open Bar Tab"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'grpDrinks
         '
@@ -380,6 +398,15 @@ Partial Class frmTabMenu
         Me.grpDrinks.TabStop = False
         Me.grpDrinks.Text = "Drinks"
         '
+        'Button35
+        '
+        Me.Button35.Location = New System.Drawing.Point(369, 262)
+        Me.Button35.Name = "Button35"
+        Me.Button35.Size = New System.Drawing.Size(85, 56)
+        Me.Button35.TabIndex = 25
+        Me.Button35.Text = "Open Bar Tab"
+        Me.Button35.UseVisualStyleBackColor = True
+        '
         'Button28
         '
         Me.Button28.Location = New System.Drawing.Point(279, 262)
@@ -388,6 +415,15 @@ Partial Class frmTabMenu
         Me.Button28.TabIndex = 20
         Me.Button28.Text = "Open Bar Tab"
         Me.Button28.UseVisualStyleBackColor = True
+        '
+        'Button39
+        '
+        Me.Button39.Location = New System.Drawing.Point(369, 138)
+        Me.Button39.Name = "Button39"
+        Me.Button39.Size = New System.Drawing.Size(85, 56)
+        Me.Button39.TabIndex = 24
+        Me.Button39.Text = "Open Bar Tab"
+        Me.Button39.UseVisualStyleBackColor = True
         '
         'Button29
         '
@@ -398,6 +434,15 @@ Partial Class frmTabMenu
         Me.Button29.Text = "Open Bar Tab"
         Me.Button29.UseVisualStyleBackColor = True
         '
+        'Button42
+        '
+        Me.Button42.Location = New System.Drawing.Point(369, 200)
+        Me.Button42.Name = "Button42"
+        Me.Button42.Size = New System.Drawing.Size(85, 56)
+        Me.Button42.TabIndex = 23
+        Me.Button42.Text = "Open Bar Tab"
+        Me.Button42.UseVisualStyleBackColor = True
+        '
         'Button30
         '
         Me.Button30.Location = New System.Drawing.Point(279, 138)
@@ -406,6 +451,24 @@ Partial Class frmTabMenu
         Me.Button30.TabIndex = 19
         Me.Button30.Text = "Open Bar Tab"
         Me.Button30.UseVisualStyleBackColor = True
+        '
+        'Button46
+        '
+        Me.Button46.Location = New System.Drawing.Point(369, 76)
+        Me.Button46.Name = "Button46"
+        Me.Button46.Size = New System.Drawing.Size(85, 56)
+        Me.Button46.TabIndex = 22
+        Me.Button46.Text = "Open Bar Tab"
+        Me.Button46.UseVisualStyleBackColor = True
+        '
+        'Button47
+        '
+        Me.Button47.Location = New System.Drawing.Point(369, 14)
+        Me.Button47.Name = "Button47"
+        Me.Button47.Size = New System.Drawing.Size(85, 56)
+        Me.Button47.TabIndex = 21
+        Me.Button47.Text = "Open Bar Tab"
+        Me.Button47.UseVisualStyleBackColor = True
         '
         'Button31
         '
@@ -561,54 +624,9 @@ Partial Class frmTabMenu
         Me.btnFountain.UseMnemonic = False
         Me.btnFountain.UseVisualStyleBackColor = True
         '
-        'Button35
-        '
-        Me.Button35.Location = New System.Drawing.Point(369, 262)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(85, 56)
-        Me.Button35.TabIndex = 25
-        Me.Button35.Text = "Open Bar Tab"
-        Me.Button35.UseVisualStyleBackColor = True
-        '
-        'Button39
-        '
-        Me.Button39.Location = New System.Drawing.Point(369, 138)
-        Me.Button39.Name = "Button39"
-        Me.Button39.Size = New System.Drawing.Size(85, 56)
-        Me.Button39.TabIndex = 24
-        Me.Button39.Text = "Open Bar Tab"
-        Me.Button39.UseVisualStyleBackColor = True
-        '
-        'Button42
-        '
-        Me.Button42.Location = New System.Drawing.Point(369, 200)
-        Me.Button42.Name = "Button42"
-        Me.Button42.Size = New System.Drawing.Size(85, 56)
-        Me.Button42.TabIndex = 23
-        Me.Button42.Text = "Open Bar Tab"
-        Me.Button42.UseVisualStyleBackColor = True
-        '
-        'Button46
-        '
-        Me.Button46.Location = New System.Drawing.Point(369, 76)
-        Me.Button46.Name = "Button46"
-        Me.Button46.Size = New System.Drawing.Size(85, 56)
-        Me.Button46.TabIndex = 22
-        Me.Button46.Text = "Open Bar Tab"
-        Me.Button46.UseVisualStyleBackColor = True
-        '
-        'Button47
-        '
-        Me.Button47.Location = New System.Drawing.Point(369, 14)
-        Me.Button47.Name = "Button47"
-        Me.Button47.Size = New System.Drawing.Size(85, 56)
-        Me.Button47.TabIndex = 21
-        Me.Button47.Text = "Open Bar Tab"
-        Me.Button47.UseVisualStyleBackColor = True
-        '
         'btnCommit
         '
-        Me.btnCommit.Location = New System.Drawing.Point(430, 37)
+        Me.btnCommit.Location = New System.Drawing.Point(399, 37)
         Me.btnCommit.Name = "btnCommit"
         Me.btnCommit.Size = New System.Drawing.Size(85, 56)
         Me.btnCommit.TabIndex = 10
@@ -618,31 +636,13 @@ Partial Class frmTabMenu
         '
         'btnCancelEdit
         '
-        Me.btnCancelEdit.Location = New System.Drawing.Point(537, 37)
+        Me.btnCancelEdit.Location = New System.Drawing.Point(506, 37)
         Me.btnCancelEdit.Name = "btnCancelEdit"
         Me.btnCancelEdit.Size = New System.Drawing.Size(85, 56)
         Me.btnCancelEdit.TabIndex = 11
         Me.btnCancelEdit.Text = "Cancel"
         Me.btnCancelEdit.UseMnemonic = False
         Me.btnCancelEdit.UseVisualStyleBackColor = True
-        '
-        'cboSalad
-        '
-        Me.cboSalad.FormattingEnabled = True
-        Me.cboSalad.Items.AddRange(New Object() {"Plain", "Ceaser", "French", "Italian", "Greek"})
-        Me.cboSalad.Location = New System.Drawing.Point(97, 32)
-        Me.cboSalad.Name = "cboSalad"
-        Me.cboSalad.Size = New System.Drawing.Size(121, 21)
-        Me.cboSalad.TabIndex = 21
-        '
-        'cboSoup
-        '
-        Me.cboSoup.FormattingEnabled = True
-        Me.cboSoup.Items.AddRange(New Object() {"Soup of the Day", "French Onion", "Chicken Noodle", "Minestrone"})
-        Me.cboSoup.Location = New System.Drawing.Point(97, 95)
-        Me.cboSoup.Name = "cboSoup"
-        Me.cboSoup.Size = New System.Drawing.Size(121, 21)
-        Me.cboSoup.TabIndex = 22
         '
         'frmTabMenu
         '
